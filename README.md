@@ -23,18 +23,20 @@ Standout exceptions — states or crops that break the usual pattern
 
 The full analysis, from raw data to final insights, is documented in a Google Colab notebook — combining code, charts, and interpretation in one place.
 
-Dataset
+##Dataset##
 File: seasonal_agriculture_performance_dataset.csv
 Records: 4,000 farms
 Coverage: 8 states, 8 crops, 3 seasons (Kharif, Rabi, Zaid)
 Key fields: environmental conditions (rainfall, temperature, humidity, soil pH/moisture), resource inputs (fertilizer, pesticide, irrigation method, water usage), and financial outcomes (yield, production, revenue, cost, profit)
-Technology Used
+
+##Technology Used##
 Python — core language for the analysis
 Pandas & NumPy — data loading, cleaning, and feature engineering
 Matplotlib & Seaborn — visualizations (histograms, boxplots, bar charts, heatmaps, scatter plots, pie charts, violin plots)
 SciPy (stats module) — ANOVA significance testing
 Google Colab — notebook environment
-Key Findings
+
+##Key Findings##
 Kharif season shows the highest average yield, revenue, and profit among the three seasons.
 Zaid season shows the weakest performance, with the highest share of loss-making farms and the lowest water-use efficiency.
 Rabi performs moderately, benefiting from more stable conditions than Zaid but without Kharif's rainfall advantage.
@@ -52,7 +54,8 @@ How to Run
 Open Seasonal_Agriculture_Performance_Analysis.ipynb in Google Colab.
 Upload seasonal_agriculture_performance_dataset.csv when prompted (or mount Google Drive if the file is stored there).
 Run all cells (Runtime → Run all).
-Future Scope
+
+###Future Scope###
 Extend the analysis to multiple years of data to check whether seasonal patterns hold over time.
 Incorporate real-time weather and market price feeds for live decision support.
 Expand dataset coverage to more states, districts, and crop varieties.
